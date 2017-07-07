@@ -1,4 +1,4 @@
-var jetjedi =  angular.module('jetjedi', ['ui.router','ng-fusioncharts','backand','ngCookies']);
+var jetjedi =  angular.module('jetjedi', ['ui.router','backand','ngCookies']);
 
 jetjedi.config(function($stateProvider,BackandProvider, $httpProvider, $provide, $urlRouterProvider) {
 
