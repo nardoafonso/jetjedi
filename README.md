@@ -8,4 +8,7 @@ Aplicação FrontEnd para Teste de Conhecimento
 git clone https://github.com/nardoafonso/jetjedi
 ```
 
-OU também a aplicaço pode ser acessada por [AQUI](http://aedi.ufpa.br/~leonardo/jetjedi/)
+OU também a aplicaço pode ser acessada no meu servidor pessoal [AQUI](http://aedi.ufpa.br/~leonardo/jetjedi)
+
+
+
