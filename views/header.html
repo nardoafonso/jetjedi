@@ -1,0 +1,17 @@
+<nav class="navbar navbar-default" ng-controller="headerController">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">JetJedi</a>
+    </div>
+    <div ng-show="auth()">
+        <ul class="nav navbar-nav">
+            <li role="presentation"><a ng-click="changeState('home')">HOME</a></li>  
+            <li role="presentation"><a ng-click="changeState('jedis')">JEDIS</a></li>   
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li> <a ng-click="signOut()" class="btn btn-default" >Fechar</a></li>
+        </ul>
+    </div>
+  </div>
+</nav>
