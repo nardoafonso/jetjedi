@@ -45,6 +45,8 @@ jetjedi.controller('jedisController',['$scope','$state','Backand','$cookieStore'
 					}
 				)
 			}
-		);			
+		);
+
+		$state.go('home');			
 	}
 }]);
